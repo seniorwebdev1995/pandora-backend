@@ -1,0 +1,17 @@
+{
+	"fontSize": "20px",
+	"graphVizOptions": {
+		"G": {
+			"rankdir": "LR"
+		}
+	},
+  "tsConfig": "./tsconfig.json",
+  "baseDir": "./src/app",
+  "fileExtensions": ["js", "ts"],
+	"layout": "neato",
+	"detectiveOptions": {
+		"ts": {
+			"skipTypeImports": true
+		}
+	}
+}
